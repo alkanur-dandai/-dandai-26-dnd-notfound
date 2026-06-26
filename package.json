@@ -1,0 +1,37 @@
+{
+  "name": "@dandai-26/404-not-found",
+  "version": "1.0.2",
+  "description": "A beautiful and customizable 404 Not Found component for React.",
+  "author": "Alkanur Dandai",
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "404",
+    "not-found",
+    "react",
+    "nextjs",
+    "vite",
+    "typescript",
+    "javascript",
+    "component"
+  ],
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
+  }
+}
